@@ -1,0 +1,987 @@
+[0m01:47:10.824635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000162A55B8610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000162A7DDF5B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000162A7DDF670>]}
+
+
+============================== 01:47:10.837636 | 1f3a8f3c-2ea7-4924-be5a-2015acdf9929 ==============================
+[0m01:47:10.837636 [info ] [MainThread]: Running with dbt=1.7.11
+[0m01:47:10.838635 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m01:47:26.176671 [debug] [MainThread]: Starter project path: D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\include\starter_project
+[0m01:47:26.249617 [info ] [MainThread]: 
+Your new dbt project "Air" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m01:47:26.257161 [info ] [MainThread]: Setting up your profile.
+[0m01:57:35.997355 [info ] [MainThread]: Profile Air written to C:\Users\user\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m01:57:36.000340 [debug] [MainThread]: Command `dbt init` succeeded at 01:57:36.000340 after 625.31 seconds
+[0m01:57:36.002343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000162A55B8610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000162A7DDF5B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000162A7E33850>]}
+[0m01:57:36.003338 [debug] [MainThread]: Flushing usage events
+[0m01:58:16.102269 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE627BB340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE650DF580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE650DDF60>]}
+
+
+============================== 01:58:16.108266 | c363203e-0f49-4f3f-ba79-17471ca29ece ==============================
+[0m01:58:16.108266 [info ] [MainThread]: Running with dbt=1.7.11
+[0m01:58:16.110266 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m01:58:16.112268 [info ] [MainThread]: dbt version: 1.7.11
+[0m01:58:16.114269 [info ] [MainThread]: python version: 3.10.11
+[0m01:58:16.116271 [info ] [MainThread]: python path: D:\Projects\AirPollution\airPollution\Scripts\python.exe
+[0m01:58:16.118268 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m01:58:16.561295 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m01:58:16.562105 [info ] [MainThread]: Using profiles dir at C:\Users\user\.dbt
+[0m01:58:16.563441 [info ] [MainThread]: Using profiles.yml file at C:\Users\user\.dbt\profiles.yml
+[0m01:58:16.564623 [info ] [MainThread]: Using dbt_project.yml file at D:\Projects\AirPollution\dbt_project.yml
+[0m01:58:16.565665 [info ] [MainThread]: Configuration:
+[0m01:58:16.568099 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m01:58:16.570100 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m01:58:16.571098 [info ] [MainThread]: Required dependencies:
+[0m01:58:16.573097 [debug] [MainThread]: Executing "git --help"
+[0m01:58:16.670772 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m01:58:16.671772 [debug] [MainThread]: STDERR: "b''"
+[0m01:58:16.672773 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m01:58:16.674791 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m01:58:16.676772 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m01:58:16.677775 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "moi_demo", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+
+[0m01:58:16.680775 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Projects\AirPollution\dbt_project.yml> not found
+
+[0m01:58:16.683772 [debug] [MainThread]: Command `dbt debug` failed at 01:58:16.682774 after 0.72 seconds
+[0m01:58:16.683772 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE627BB340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE650DDF60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FE650DF400>]}
+[0m01:58:16.684773 [debug] [MainThread]: Flushing usage events
+[0m02:00:06.430080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4B56B9870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4B7BDDA80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4B7BDC940>]}
+
+
+============================== 02:00:06.435045 | 5b5c6d25-411e-4417-8ed9-ff4e0ff54a6e ==============================
+[0m02:00:06.435045 [info ] [MainThread]: Running with dbt=1.7.11
+[0m02:00:06.436045 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'D:\\Projects\\AirPollution', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m02:00:06.437046 [info ] [MainThread]: dbt version: 1.7.11
+[0m02:00:06.438047 [info ] [MainThread]: python version: 3.10.11
+[0m02:00:06.440048 [info ] [MainThread]: python path: D:\Projects\AirPollution\airPollution\Scripts\python.exe
+[0m02:00:06.441047 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m02:00:06.822079 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m02:00:06.823047 [info ] [MainThread]: Using profiles dir at D:\Projects\AirPollution
+[0m02:00:06.825047 [info ] [MainThread]: Using profiles.yml file at D:\Projects\AirPollution\profiles.yml
+[0m02:00:06.827048 [info ] [MainThread]: Using dbt_project.yml file at D:\Projects\AirPollution\dbt_project.yml
+[0m02:00:06.828047 [info ] [MainThread]: Configuration:
+[0m02:00:06.830048 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m02:00:06.832051 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m02:00:06.834050 [info ] [MainThread]: Required dependencies:
+[0m02:00:06.835047 [debug] [MainThread]: Executing "git --help"
+[0m02:00:06.915077 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m02:00:06.916045 [debug] [MainThread]: STDERR: "b''"
+[0m02:00:06.917045 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m02:00:06.918045 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m02:00:06.919046 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m02:00:06.921045 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "moi_demo", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+
+[0m02:00:06.924049 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Projects\AirPollution\dbt_project.yml> not found
+
+[0m02:00:06.927050 [debug] [MainThread]: Command `dbt debug` failed at 02:00:06.927050 after 0.60 seconds
+[0m02:00:06.929048 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4B56B9870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4B7BDC940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4B7BDF070>]}
+[0m02:00:06.930079 [debug] [MainThread]: Flushing usage events
+[0m02:01:02.491458 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB9E7C53C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBA0EDF4C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBA0EDCBB0>]}
+
+
+============================== 02:01:02.496496 | a5262980-a5d7-4605-9b3a-e7958811a686 ==============================
+[0m02:01:02.496496 [info ] [MainThread]: Running with dbt=1.7.11
+[0m02:01:02.498459 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\Projects\\AirPollution', 'debug': 'False', 'version_check': 'True', 'log_path': 'D:\\Projects\\AirPollution\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m02:01:02.499495 [info ] [MainThread]: dbt version: 1.7.11
+[0m02:01:02.500497 [info ] [MainThread]: python version: 3.10.11
+[0m02:01:02.502458 [info ] [MainThread]: python path: D:\Projects\AirPollution\airPollution\Scripts\python.exe
+[0m02:01:02.504461 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m02:01:03.002457 [info ] [MainThread]: Using profiles dir at D:\Projects\AirPollution
+[0m02:01:03.003458 [info ] [MainThread]: Using profiles.yml file at D:\Projects\AirPollution\profiles.yml
+[0m02:01:03.004458 [info ] [MainThread]: Using dbt_project.yml file at D:\Projects\AirPollution\dbt_project.yml
+[0m02:01:03.013467 [info ] [MainThread]: adapter type: snowflake
+[0m02:01:03.015464 [info ] [MainThread]: adapter version: 1.7.3
+[0m02:01:03.161457 [info ] [MainThread]: Configuration:
+[0m02:01:03.161999 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m02:01:03.163013 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m02:01:03.165009 [info ] [MainThread]: Required dependencies:
+[0m02:01:03.166011 [debug] [MainThread]: Executing "git --help"
+[0m02:01:03.235009 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m02:01:03.237010 [debug] [MainThread]: STDERR: "b''"
+[0m02:01:03.239018 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m02:01:03.241014 [info ] [MainThread]: Connection:
+[0m02:01:03.242013 [info ] [MainThread]:   account: ONB25282
+[0m02:01:03.243040 [info ] [MainThread]:   user: Deerak
+[0m02:01:03.245010 [info ] [MainThread]:   database: SNOWFLAKE_SAMPLE_DATA
+[0m02:01:03.246027 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m02:01:03.248010 [info ] [MainThread]:   role: 1526Dmoringa
+[0m02:01:03.249009 [info ] [MainThread]:   schema: INFORMATION_SCHEMA
+[0m02:01:03.250013 [info ] [MainThread]:   authenticator: None
+[0m02:01:03.252014 [info ] [MainThread]:   oauth_client_id: None
+[0m02:01:03.256041 [info ] [MainThread]:   query_tag: None
+[0m02:01:03.259012 [info ] [MainThread]:   client_session_keep_alive: False
+[0m02:01:03.261015 [info ] [MainThread]:   host: None
+[0m02:01:03.262014 [info ] [MainThread]:   port: None
+[0m02:01:03.265012 [info ] [MainThread]:   proxy_host: None
+[0m02:01:03.266016 [info ] [MainThread]:   proxy_port: None
+[0m02:01:03.267012 [info ] [MainThread]:   protocol: None
+[0m02:01:03.270050 [info ] [MainThread]:   connect_retries: 1
+[0m02:01:03.274014 [info ] [MainThread]:   connect_timeout: None
+[0m02:01:03.276011 [info ] [MainThread]:   retry_on_database_errors: False
+[0m02:01:03.278013 [info ] [MainThread]:   retry_all: False
+[0m02:01:03.279012 [info ] [MainThread]:   insecure_mode: False
+[0m02:01:03.281011 [info ] [MainThread]:   reuse_connections: None
+[0m02:01:03.283010 [info ] [MainThread]: Registered adapter: snowflake=1.7.3
+[0m02:01:03.293015 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m02:01:03.296047 [debug] [MainThread]: Using snowflake connection "debug"
+[0m02:01:03.298010 [debug] [MainThread]: On debug: select 1 as id
+[0m02:01:03.299040 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:01:06.559104 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m02:01:06.561105 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m02:01:06.562103 [debug] [MainThread]: On debug: No close available on handle
+[0m02:01:06.564105 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m02:01:06.566103 [info ] [MainThread]: [31m1 check failed:[0m
+[0m02:01:06.569107 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001 (08001): Failed to connect to DB. Verify the account name is correct: ONB25282.snowflakecomputing.com:443. HTTP 403: Forbidden
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m02:01:06.574034 [debug] [MainThread]: Command `dbt debug` failed at 02:01:06.574034 after 4.20 seconds
+[0m02:01:06.576037 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m02:01:06.576037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FB9E7C53C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBA1A9A200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FBA1A6B5E0>]}
+[0m02:01:06.578039 [debug] [MainThread]: Flushing usage events
+[0m16:51:36.431339 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216DBCC5870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216DE1DF5B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216DE1DF670>]}
+
+
+============================== 16:51:36.440343 | 985d62f7-e816-4d26-aa46-885a41718388 ==============================
+[0m16:51:36.440343 [info ] [MainThread]: Running with dbt=1.7.11
+[0m16:51:36.442340 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\Projects\\AirPollution', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'D:\\Projects\\AirPollution\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:51:36.444338 [info ] [MainThread]: dbt version: 1.7.11
+[0m16:51:36.446339 [info ] [MainThread]: python version: 3.10.11
+[0m16:51:36.448380 [info ] [MainThread]: python path: D:\Projects\AirPollution\airPollution\Scripts\python.exe
+[0m16:51:36.450573 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m16:51:36.822368 [info ] [MainThread]: Using profiles dir at D:\Projects\AirPollution
+[0m16:51:36.824337 [info ] [MainThread]: Using profiles.yml file at D:\Projects\AirPollution\profiles.yml
+[0m16:51:36.825338 [info ] [MainThread]: Using dbt_project.yml file at D:\Projects\AirPollution\dbt_project.yml
+[0m16:51:36.838340 [info ] [MainThread]: adapter type: snowflake
+[0m16:51:36.843339 [info ] [MainThread]: adapter version: 1.7.3
+[0m16:51:37.005335 [info ] [MainThread]: Configuration:
+[0m16:51:37.006417 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:51:37.008338 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m16:51:37.009336 [info ] [MainThread]: Required dependencies:
+[0m16:51:37.010341 [debug] [MainThread]: Executing "git --help"
+[0m16:51:37.069336 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:51:37.071339 [debug] [MainThread]: STDERR: "b''"
+[0m16:51:37.073336 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:51:37.077348 [info ] [MainThread]: Connection:
+[0m16:51:37.079336 [info ] [MainThread]:   account: ONB25282
+[0m16:51:37.082353 [info ] [MainThread]:   user: Deerak
+[0m16:51:37.084336 [info ] [MainThread]:   database: NAIROBI_POLLUTION
+[0m16:51:37.086392 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m16:51:37.090338 [info ] [MainThread]:   role: 1526Dmoringa
+[0m16:51:37.096608 [info ] [MainThread]:   schema: NAIROBI_AIR_PURITY
+[0m16:51:37.101421 [info ] [MainThread]:   authenticator: None
+[0m16:51:37.143336 [info ] [MainThread]:   oauth_client_id: None
+[0m16:51:37.158342 [info ] [MainThread]:   query_tag: None
+[0m16:51:37.193341 [info ] [MainThread]:   client_session_keep_alive: False
+[0m16:51:37.229337 [info ] [MainThread]:   host: None
+[0m16:51:37.235346 [info ] [MainThread]:   port: None
+[0m16:51:37.239530 [info ] [MainThread]:   proxy_host: None
+[0m16:51:37.248341 [info ] [MainThread]:   proxy_port: None
+[0m16:51:37.264336 [info ] [MainThread]:   protocol: None
+[0m16:51:37.271342 [info ] [MainThread]:   connect_retries: 1
+[0m16:51:37.275725 [info ] [MainThread]:   connect_timeout: None
+[0m16:51:37.278339 [info ] [MainThread]:   retry_on_database_errors: False
+[0m16:51:37.284338 [info ] [MainThread]:   retry_all: False
+[0m16:51:37.289106 [info ] [MainThread]:   insecure_mode: False
+[0m16:51:37.291376 [info ] [MainThread]:   reuse_connections: None
+[0m16:51:37.293758 [info ] [MainThread]: Registered adapter: snowflake=1.7.3
+[0m16:51:37.295637 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m16:51:37.302458 [debug] [MainThread]: Using snowflake connection "debug"
+[0m16:51:37.303596 [debug] [MainThread]: On debug: select 1 as id
+[0m16:51:37.306378 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:51:39.766516 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m16:51:39.767516 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m16:51:39.768574 [debug] [MainThread]: On debug: No close available on handle
+[0m16:51:39.768574 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m16:51:39.770515 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:51:39.771516 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001 (08001): Failed to connect to DB. Verify the account name is correct: ONB25282.snowflakecomputing.com:443. HTTP 403: Forbidden
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:51:39.775552 [debug] [MainThread]: Command `dbt debug` failed at 16:51:39.774518 after 3.44 seconds
+[0m16:51:39.776517 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:51:39.776517 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216DBCC5870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216DEB9CE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000216DE1DEB00>]}
+[0m16:51:39.777859 [debug] [MainThread]: Flushing usage events
+[0m16:54:32.242256 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AA587C7340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AA5B0DF550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AA5B0DF3D0>]}
+
+
+============================== 16:54:32.248256 | 40b9c538-5ca1-4d9c-85d0-a6fb17e6ec8c ==============================
+[0m16:54:32.248256 [info ] [MainThread]: Running with dbt=1.7.11
+[0m16:54:32.250258 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'D:\\Projects\\AirPollution', 'log_path': 'D:\\Projects\\AirPollution\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:54:32.252256 [info ] [MainThread]: dbt version: 1.7.11
+[0m16:54:32.253346 [info ] [MainThread]: python version: 3.10.11
+[0m16:54:32.255258 [info ] [MainThread]: python path: D:\Projects\AirPollution\airPollution\Scripts\python.exe
+[0m16:54:32.257257 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m16:54:32.669289 [info ] [MainThread]: Using profiles dir at D:\Projects\AirPollution
+[0m16:54:32.671256 [info ] [MainThread]: Using profiles.yml file at D:\Projects\AirPollution\profiles.yml
+[0m16:54:32.672342 [info ] [MainThread]: Using dbt_project.yml file at D:\Projects\AirPollution\dbt_project.yml
+[0m16:54:32.674545 [info ] [MainThread]: adapter type: snowflake
+[0m16:54:32.676547 [info ] [MainThread]: adapter version: 1.7.3
+[0m16:54:32.808546 [info ] [MainThread]: Configuration:
+[0m16:54:32.809573 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:54:32.811453 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m16:54:32.812450 [info ] [MainThread]: Required dependencies:
+[0m16:54:32.813579 [debug] [MainThread]: Executing "git --help"
+[0m16:54:32.874240 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:54:32.874240 [debug] [MainThread]: STDERR: "b''"
+[0m16:54:32.876749 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:54:32.880241 [info ] [MainThread]: Connection:
+[0m16:54:32.881254 [info ] [MainThread]:   account: ONB25282
+[0m16:54:32.882245 [info ] [MainThread]:   user: DEERAK
+[0m16:54:32.884243 [info ] [MainThread]:   database: NAIROBI_POLLUTION
+[0m16:54:32.885242 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m16:54:32.887246 [info ] [MainThread]:   role: 1526Dmoringa
+[0m16:54:32.888321 [info ] [MainThread]:   schema: NAIROBI_AIR_PURITY
+[0m16:54:32.889476 [info ] [MainThread]:   authenticator: None
+[0m16:54:32.891259 [info ] [MainThread]:   oauth_client_id: None
+[0m16:54:32.894246 [info ] [MainThread]:   query_tag: None
+[0m16:54:32.897248 [info ] [MainThread]:   client_session_keep_alive: False
+[0m16:54:32.899245 [info ] [MainThread]:   host: None
+[0m16:54:32.901418 [info ] [MainThread]:   port: None
+[0m16:54:32.903247 [info ] [MainThread]:   proxy_host: None
+[0m16:54:32.904274 [info ] [MainThread]:   proxy_port: None
+[0m16:54:32.906245 [info ] [MainThread]:   protocol: None
+[0m16:54:32.907316 [info ] [MainThread]:   connect_retries: 1
+[0m16:54:32.912251 [info ] [MainThread]:   connect_timeout: None
+[0m16:54:32.915474 [info ] [MainThread]:   retry_on_database_errors: False
+[0m16:54:32.916246 [info ] [MainThread]:   retry_all: False
+[0m16:54:32.918310 [info ] [MainThread]:   insecure_mode: False
+[0m16:54:32.920360 [info ] [MainThread]:   reuse_connections: None
+[0m16:54:32.922246 [info ] [MainThread]: Registered adapter: snowflake=1.7.3
+[0m16:54:32.923243 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m16:54:32.924509 [debug] [MainThread]: Using snowflake connection "debug"
+[0m16:54:32.929242 [debug] [MainThread]: On debug: select 1 as id
+[0m16:54:32.931393 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:54:35.430812 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m16:54:35.431811 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m16:54:35.432975 [debug] [MainThread]: On debug: No close available on handle
+[0m16:54:35.433777 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m16:54:35.435779 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:54:35.437782 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001 (08001): Failed to connect to DB. Verify the account name is correct: ONB25282.snowflakecomputing.com:443. HTTP 403: Forbidden
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:54:35.443200 [debug] [MainThread]: Command `dbt debug` failed at 16:54:35.442860 after 3.32 seconds
+[0m16:54:35.444828 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:54:35.446593 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AA587C7340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AA5BA9E230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AA5B0DF220>]}
+[0m16:54:35.448292 [debug] [MainThread]: Flushing usage events
+[0m17:04:37.893504 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D147C5870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D16EDF5B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D16EDF670>]}
+
+
+============================== 17:04:37.898510 | 61cdbfb7-3b20-4c8e-8be5-01632805e1de ==============================
+[0m17:04:37.898510 [info ] [MainThread]: Running with dbt=1.7.11
+[0m17:04:37.899504 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'D:\\Projects\\AirPollution', 'log_path': 'D:\\Projects\\AirPollution\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:04:37.901504 [info ] [MainThread]: dbt version: 1.7.11
+[0m17:04:37.902517 [info ] [MainThread]: python version: 3.10.11
+[0m17:04:37.903505 [info ] [MainThread]: python path: D:\Projects\AirPollution\airPollution\Scripts\python.exe
+[0m17:04:37.904513 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m17:04:38.285537 [info ] [MainThread]: Using profiles dir at D:\Projects\AirPollution
+[0m17:04:38.287504 [info ] [MainThread]: Using profiles.yml file at D:\Projects\AirPollution\profiles.yml
+[0m17:04:38.288505 [info ] [MainThread]: Using dbt_project.yml file at D:\Projects\AirPollution\dbt_project.yml
+[0m17:04:38.289505 [info ] [MainThread]: adapter type: snowflake
+[0m17:04:38.291506 [info ] [MainThread]: adapter version: 1.7.3
+[0m17:04:38.447502 [info ] [MainThread]: Configuration:
+[0m17:04:38.448505 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:04:38.450503 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:04:38.451505 [info ] [MainThread]: Required dependencies:
+[0m17:04:38.452738 [debug] [MainThread]: Executing "git --help"
+[0m17:04:38.513066 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:04:38.514069 [debug] [MainThread]: STDERR: "b''"
+[0m17:04:38.515526 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:04:38.517064 [info ] [MainThread]: Connection:
+[0m17:04:38.526065 [info ] [MainThread]:   account: https://go.snowflake.net/MjUyLVJGTy0yMjcAAAGSesv06FF-35pDJv9qgYfpFT3xqwcktl-NzOm0EMFaQh5AQyE1cC_dlZTOiZzL9CGnGHNrsTs=
+[0m17:04:38.530067 [info ] [MainThread]:   user: DEERAK
+[0m17:04:38.531066 [info ] [MainThread]:   database: NAIROBI_POLLUTION
+[0m17:04:38.533065 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m17:04:38.535132 [info ] [MainThread]:   role: 1526Dmoringa
+[0m17:04:38.536064 [info ] [MainThread]:   schema: NAIROBI_AIR_PURITY
+[0m17:04:38.537620 [info ] [MainThread]:   authenticator: None
+[0m17:04:38.539511 [info ] [MainThread]:   oauth_client_id: None
+[0m17:04:38.543980 [info ] [MainThread]:   query_tag: None
+[0m17:04:38.546691 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:04:38.548517 [info ] [MainThread]:   host: None
+[0m17:04:38.550558 [info ] [MainThread]:   port: None
+[0m17:04:38.552513 [info ] [MainThread]:   proxy_host: None
+[0m17:04:38.553714 [info ] [MainThread]:   proxy_port: None
+[0m17:04:38.555516 [info ] [MainThread]:   protocol: None
+[0m17:04:38.559648 [info ] [MainThread]:   connect_retries: 1
+[0m17:04:38.563518 [info ] [MainThread]:   connect_timeout: None
+[0m17:04:38.564956 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:04:38.566512 [info ] [MainThread]:   retry_all: False
+[0m17:04:38.569718 [info ] [MainThread]:   insecure_mode: False
+[0m17:04:38.571528 [info ] [MainThread]:   reuse_connections: None
+[0m17:04:38.572515 [info ] [MainThread]: Registered adapter: snowflake=1.7.3
+[0m17:04:38.579515 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:04:38.581512 [debug] [MainThread]: Using snowflake connection "debug"
+[0m17:04:38.582914 [debug] [MainThread]: On debug: select 1 as id
+[0m17:04:38.584512 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:04:48.777430 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m17:04:48.779428 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m17:04:48.780671 [debug] [MainThread]: On debug: No close available on handle
+[0m17:04:48.782427 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:04:48.785098 [info ] [MainThread]: [31m1 check failed:[0m
+[0m17:04:48.787429 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:04:48.794669 [debug] [MainThread]: Command `dbt debug` failed at 17:04:48.793672 after 11.02 seconds
+[0m17:04:48.796412 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:04:48.797664 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D147C5870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D17AE9330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D17AE8040>]}
+[0m17:04:48.799663 [debug] [MainThread]: Flushing usage events
+[0m17:07:42.901361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000166D06BB1C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000166D2BDB520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000166D2BDAEF0>]}
+
+
+============================== 17:07:42.906323 | 83504c9f-2dc2-4268-8ee1-1e22793ce2de ==============================
+[0m17:07:42.906323 [info ] [MainThread]: Running with dbt=1.7.11
+[0m17:07:42.907323 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\Projects\\AirPollution', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'D:\\Projects\\AirPollution\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:07:42.909324 [info ] [MainThread]: dbt version: 1.7.11
+[0m17:07:42.910328 [info ] [MainThread]: python version: 3.10.11
+[0m17:07:42.911410 [info ] [MainThread]: python path: D:\Projects\AirPollution\airPollution\Scripts\python.exe
+[0m17:07:42.913326 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m17:07:43.292322 [info ] [MainThread]: Using profiles dir at D:\Projects\AirPollution
+[0m17:07:43.293454 [info ] [MainThread]: Using profiles.yml file at D:\Projects\AirPollution\profiles.yml
+[0m17:07:43.294412 [info ] [MainThread]: Using dbt_project.yml file at D:\Projects\AirPollution\dbt_project.yml
+[0m17:07:43.297324 [info ] [MainThread]: adapter type: snowflake
+[0m17:07:43.299756 [info ] [MainThread]: adapter version: 1.7.3
+[0m17:07:43.467323 [info ] [MainThread]: Configuration:
+[0m17:07:43.469325 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:07:43.471324 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:07:43.472391 [info ] [MainThread]: Required dependencies:
+[0m17:07:43.475330 [debug] [MainThread]: Executing "git --help"
+[0m17:07:43.538325 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:07:43.540381 [debug] [MainThread]: STDERR: "b''"
+[0m17:07:43.542501 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:07:43.545431 [info ] [MainThread]: Connection:
+[0m17:07:43.548451 [info ] [MainThread]:   account: https://app.snowflake.com/swtofoi/onb25282/#/organization
+[0m17:07:43.550333 [info ] [MainThread]:   user: DEERAK
+[0m17:07:43.551483 [info ] [MainThread]:   database: NAIROBI_POLLUTION
+[0m17:07:43.553324 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m17:07:43.554360 [info ] [MainThread]:   role: 1526Dmoringa
+[0m17:07:43.558345 [info ] [MainThread]:   schema: NAIROBI_AIR_PURITY
+[0m17:07:43.560326 [info ] [MainThread]:   authenticator: None
+[0m17:07:43.563325 [info ] [MainThread]:   oauth_client_id: None
+[0m17:07:43.568334 [info ] [MainThread]:   query_tag: None
+[0m17:07:43.571325 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:07:43.574326 [info ] [MainThread]:   host: None
+[0m17:07:43.576328 [info ] [MainThread]:   port: None
+[0m17:07:43.578724 [info ] [MainThread]:   proxy_host: None
+[0m17:07:43.580488 [info ] [MainThread]:   proxy_port: None
+[0m17:07:43.583329 [info ] [MainThread]:   protocol: None
+[0m17:07:43.587324 [info ] [MainThread]:   connect_retries: 1
+[0m17:07:43.590692 [info ] [MainThread]:   connect_timeout: None
+[0m17:07:43.593328 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:07:43.595706 [info ] [MainThread]:   retry_all: False
+[0m17:07:43.597326 [info ] [MainThread]:   insecure_mode: False
+[0m17:07:43.602379 [info ] [MainThread]:   reuse_connections: None
+[0m17:07:43.604325 [info ] [MainThread]: Registered adapter: snowflake=1.7.3
+[0m17:07:43.607455 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:07:43.610330 [debug] [MainThread]: Using snowflake connection "debug"
+[0m17:07:43.611884 [debug] [MainThread]: On debug: select 1 as id
+[0m17:07:43.612953 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:12:01.675149 [error] [MainThread]: Encountered an error:
+
+[0m17:12:01.680150 [error] [MainThread]: Traceback (most recent call last):
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\vendored\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\vendored\urllib3\util\connection.py", line 79, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\vendored\urllib3\connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\vendored\urllib3\connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\vendored\urllib3\connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\vendored\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\vendored\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+snowflake.connector.vendored.urllib3.exceptions.NewConnectionError: <snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x00000166D38116F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\vendored\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\vendored\urllib3\connectionpool.py", line 827, in urlopen
+    return self.urlopen(
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\vendored\urllib3\connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\vendored\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+snowflake.connector.vendored.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //app.snowflake.com/swtofoi/onb25282/ (Caused by NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x00000166D38116F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\network.py", line 1078, in _request_exec
+    raw_ret = session.request(
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\vendored\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\vendored\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\vendored\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+snowflake.connector.vendored.requests.exceptions.ConnectionError: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //app.snowflake.com/swtofoi/onb25282/ (Caused by NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x00000166D38116F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\network.py", line 884, in _request_exec_wrapper
+    return_object = self._request_exec(
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\network.py", line 1182, in _request_exec
+    raise RetryRequest(err)
+snowflake.connector.network.RetryRequest: HTTPSConnectionPool(host='https', port=443): Max retries exceeded with url: //app.snowflake.com/swtofoi/onb25282/ (Caused by NewConnectionError('<snowflake.connector.vendored.urllib3.connection.HTTPSConnection object at 0x00000166D38116F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\cli\requires.py", line 91, in wrapper
+    result, success = func(*args, **kwargs)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\cli\requires.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\cli\main.py", line 444, in debug
+    results = task.run()
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\task\debug.py", line 153, in run
+    connection_status = self.test_connection()
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\task\debug.py", line 472, in test_connection
+    connection_result = self.attempt_connection(self.profile)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\task\debug.py", line 450, in attempt_connection
+    adapter.debug_query()
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\adapters\snowflake\impl.py", line 272, in debug_query
+    self.execute("select 1 as id")
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\adapters\base\impl.py", line 310, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\adapters\snowflake\connections.py", line 472, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\adapters\snowflake\connections.py", line 507, in add_query
+    connection, cursor = self._add_standard_queries(
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\adapters\snowflake\connections.py", line 563, in _add_standard_queries
+    connection, cursor = self.add_standard_query(query, **kwargs)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\adapters\snowflake\connections.py", line 483, in add_standard_query
+    return super().add_query(self._add_query_comment(sql), **kwargs)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\adapters\sql\connections.py", line 79, in add_query
+    cursor = connection.handle.cursor()
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\contracts\connection.py", line 90, in handle
+    self._handle.resolve(self)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\contracts\connection.py", line 114, in resolve
+    return self.opener(connection)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\adapters\snowflake\connections.py", line 383, in open
+    return cls.retry_connection(
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\adapters\base\connections.py", line 241, in retry_connection
+    connection.handle = connect()
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\dbt\adapters\snowflake\connections.py", line 347, in connect
+    handle = snowflake.connector.connect(
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\__init__.py", line 54, in Connect
+    return SnowflakeConnection(**kwargs)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\connection.py", line 438, in __init__
+    self.connect(**kwargs)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\connection.py", line 741, in connect
+    self.__open_connection()
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\connection.py", line 1069, in __open_connection
+    self.authenticate_with_retry(self.auth_class)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\connection.py", line 1341, in authenticate_with_retry
+    self._authenticate(auth_instance)
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\connection.py", line 1369, in _authenticate
+    auth.authenticate(
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\auth\_auth.py", line 250, in authenticate
+    ret = self._rest._post_request(
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\network.py", line 734, in _post_request
+    ret = self.fetch(
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\network.py", line 843, in fetch
+    ret = self._request_exec_wrapper(
+  File "D:\Projects\AirPollution\airPollution\lib\site-packages\snowflake\connector\network.py", line 955, in _request_exec_wrapper
+    time.sleep(float(retry_ctx.current_sleep_time))
+KeyboardInterrupt
+
+[0m17:12:01.734144 [debug] [MainThread]: Command `dbt debug` failed at 17:12:01.733145 after 258.92 seconds
+[0m17:12:01.735146 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:12:01.737218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000166D06BB1C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000166D37E6BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000166D37E6E90>]}
+[0m17:12:01.746144 [debug] [MainThread]: Flushing usage events
+[0m17:12:18.926110 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200530BB340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200555DF550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200555DF3D0>]}
+
+
+============================== 17:12:18.930075 | f35987fa-8d4a-4dab-86ac-a2dfdfd2f47b ==============================
+[0m17:12:18.930075 [info ] [MainThread]: Running with dbt=1.7.11
+[0m17:12:18.932280 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'D:\\Projects\\AirPollution\\logs', 'profiles_dir': 'D:\\Projects\\AirPollution', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:12:18.933278 [info ] [MainThread]: dbt version: 1.7.11
+[0m17:12:18.934285 [info ] [MainThread]: python version: 3.10.11
+[0m17:12:18.936279 [info ] [MainThread]: python path: D:\Projects\AirPollution\airPollution\Scripts\python.exe
+[0m17:12:18.937551 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m17:12:19.319020 [info ] [MainThread]: Using profiles dir at D:\Projects\AirPollution
+[0m17:12:19.320046 [info ] [MainThread]: Using profiles.yml file at D:\Projects\AirPollution\profiles.yml
+[0m17:12:19.320730 [info ] [MainThread]: Using dbt_project.yml file at D:\Projects\AirPollution\dbt_project.yml
+[0m17:12:19.322728 [info ] [MainThread]: adapter type: snowflake
+[0m17:12:19.324028 [info ] [MainThread]: adapter version: 1.7.3
+[0m17:12:19.464759 [info ] [MainThread]: Configuration:
+[0m17:12:19.465751 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:12:19.467748 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:12:19.468729 [info ] [MainThread]: Required dependencies:
+[0m17:12:19.470728 [debug] [MainThread]: Executing "git --help"
+[0m17:12:19.541454 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:12:19.542450 [debug] [MainThread]: STDERR: "b''"
+[0m17:12:19.543587 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:12:19.545452 [info ] [MainThread]: Connection:
+[0m17:12:19.547480 [info ] [MainThread]:   account: https://swtofoi-onb25282.snowflakecomputing.com
+[0m17:12:19.551453 [info ] [MainThread]:   user: DEERAK
+[0m17:12:19.553452 [info ] [MainThread]:   database: NAIROBI_POLLUTION
+[0m17:12:19.554450 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m17:12:19.556450 [info ] [MainThread]:   role: 1526Dmoringa
+[0m17:12:19.558453 [info ] [MainThread]:   schema: NAIROBI_AIR_PURITY
+[0m17:12:19.559472 [info ] [MainThread]:   authenticator: None
+[0m17:12:19.560531 [info ] [MainThread]:   oauth_client_id: None
+[0m17:12:19.562454 [info ] [MainThread]:   query_tag: None
+[0m17:12:19.565483 [info ] [MainThread]:   client_session_keep_alive: False
+[0m17:12:19.568454 [info ] [MainThread]:   host: None
+[0m17:12:19.569503 [info ] [MainThread]:   port: None
+[0m17:12:19.571451 [info ] [MainThread]:   proxy_host: None
+[0m17:12:19.574117 [info ] [MainThread]:   proxy_port: None
+[0m17:12:19.575449 [info ] [MainThread]:   protocol: None
+[0m17:12:19.576454 [info ] [MainThread]:   connect_retries: 1
+[0m17:12:19.577452 [info ] [MainThread]:   connect_timeout: None
+[0m17:12:19.579453 [info ] [MainThread]:   retry_on_database_errors: False
+[0m17:12:19.584940 [info ] [MainThread]:   retry_all: False
+[0m17:12:19.586616 [info ] [MainThread]:   insecure_mode: False
+[0m17:12:19.588452 [info ] [MainThread]:   reuse_connections: None
+[0m17:12:19.590453 [info ] [MainThread]: Registered adapter: snowflake=1.7.3
+[0m17:12:19.593453 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m17:12:19.594451 [debug] [MainThread]: Using snowflake connection "debug"
+[0m17:12:19.595956 [debug] [MainThread]: On debug: select 1 as id
+[0m17:12:19.598455 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:12:29.768965 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m17:12:29.768965 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m17:12:29.770351 [debug] [MainThread]: On debug: No close available on handle
+[0m17:12:29.770965 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:12:29.771963 [info ] [MainThread]: [31m1 check failed:[0m
+[0m17:12:29.772991 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:12:29.778003 [debug] [MainThread]: Command `dbt debug` failed at 17:12:29.776999 after 10.94 seconds
+[0m17:12:29.778967 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:12:29.778967 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200530BB340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200561E56F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200561E6710>]}
+[0m17:12:29.780969 [debug] [MainThread]: Flushing usage events
+[0m19:27:01.869768 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9135C71C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E915DDF520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E915DDEEF0>]}
+
+
+============================== 19:27:01.874763 | 0886cd8a-6369-4ade-8c9e-4b9c610b67b1 ==============================
+[0m19:27:01.874763 [info ] [MainThread]: Running with dbt=1.7.11
+[0m19:27:01.876765 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\Projects\\AirPollution', 'version_check': 'True', 'debug': 'False', 'log_path': 'D:\\Projects\\AirPollution\\logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:27:01.878767 [info ] [MainThread]: dbt version: 1.7.11
+[0m19:27:01.880796 [info ] [MainThread]: python version: 3.10.11
+[0m19:27:01.882774 [info ] [MainThread]: python path: D:\Projects\AirPollution\airPollution\Scripts\python.exe
+[0m19:27:01.884764 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m19:27:02.483811 [info ] [MainThread]: Using profiles dir at D:\Projects\AirPollution
+[0m19:27:02.484795 [info ] [MainThread]: Using profiles.yml file at D:\Projects\AirPollution\profiles.yml
+[0m19:27:02.486763 [info ] [MainThread]: Using dbt_project.yml file at D:\Projects\AirPollution\dbt_project.yml
+[0m19:27:02.487765 [info ] [MainThread]: adapter type: snowflake
+[0m19:27:02.488766 [info ] [MainThread]: adapter version: 1.7.3
+[0m19:27:02.649764 [info ] [MainThread]: Configuration:
+[0m19:27:02.650561 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:27:02.651811 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m19:27:02.653018 [info ] [MainThread]: Required dependencies:
+[0m19:27:02.654034 [debug] [MainThread]: Executing "git --help"
+[0m19:27:02.738039 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:27:02.739030 [debug] [MainThread]: STDERR: "b''"
+[0m19:27:02.740034 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:27:02.742035 [info ] [MainThread]: Connection:
+[0m19:27:02.744034 [info ] [MainThread]:   account: https://swtofoi-onb25282.snowflakecomputing.com
+[0m19:27:02.745030 [info ] [MainThread]:   user: DEERAK
+[0m19:27:02.748048 [info ] [MainThread]:   database: NAIROBI_POLLUTION
+[0m19:27:02.751034 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m19:27:02.762038 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m19:27:02.766032 [info ] [MainThread]:   schema: NAIROBI_AIR_PURITY
+[0m19:27:02.771034 [info ] [MainThread]:   authenticator: None
+[0m19:27:02.774033 [info ] [MainThread]:   oauth_client_id: None
+[0m19:27:02.779034 [info ] [MainThread]:   query_tag: None
+[0m19:27:02.784033 [info ] [MainThread]:   client_session_keep_alive: False
+[0m19:27:02.787035 [info ] [MainThread]:   host: None
+[0m19:27:02.789030 [info ] [MainThread]:   port: None
+[0m19:27:02.791032 [info ] [MainThread]:   proxy_host: None
+[0m19:27:02.795042 [info ] [MainThread]:   proxy_port: None
+[0m19:27:02.800031 [info ] [MainThread]:   protocol: None
+[0m19:27:02.801033 [info ] [MainThread]:   connect_retries: 1
+[0m19:27:02.809030 [info ] [MainThread]:   connect_timeout: None
+[0m19:27:02.818035 [info ] [MainThread]:   retry_on_database_errors: False
+[0m19:27:02.820032 [info ] [MainThread]:   retry_all: False
+[0m19:27:02.823032 [info ] [MainThread]:   insecure_mode: False
+[0m19:27:02.828064 [info ] [MainThread]:   reuse_connections: None
+[0m19:27:02.833031 [info ] [MainThread]: Registered adapter: snowflake=1.7.3
+[0m19:27:02.835031 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m19:27:02.836029 [debug] [MainThread]: Using snowflake connection "debug"
+[0m19:27:02.838032 [debug] [MainThread]: On debug: select 1 as id
+[0m19:27:02.843033 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:27:13.006326 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m19:27:13.007326 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m19:27:13.008325 [debug] [MainThread]: On debug: No close available on handle
+[0m19:27:13.009324 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m19:27:13.011328 [info ] [MainThread]: [31m1 check failed:[0m
+[0m19:27:13.012325 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:27:13.017266 [debug] [MainThread]: Command `dbt debug` failed at 19:27:13.017266 after 11.26 seconds
+[0m19:27:13.018228 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:27:13.020227 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9135C71C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9167D4370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9167D7460>]}
+[0m19:27:13.021246 [debug] [MainThread]: Flushing usage events
+[0m19:27:46.422361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226FDFC45B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226806DF4F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226806DED40>]}
+
+
+============================== 19:27:46.428364 | dccbc070-9b6e-435f-812b-68f972cb95a3 ==============================
+[0m19:27:46.428364 [info ] [MainThread]: Running with dbt=1.7.11
+[0m19:27:46.430365 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\Projects\\AirPollution', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'D:\\Projects\\AirPollution\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:27:46.432360 [info ] [MainThread]: dbt version: 1.7.11
+[0m19:27:46.433362 [info ] [MainThread]: python version: 3.10.11
+[0m19:27:46.435363 [info ] [MainThread]: python path: D:\Projects\AirPollution\airPollution\Scripts\python.exe
+[0m19:27:46.436364 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m19:27:46.825394 [info ] [MainThread]: Using profiles dir at D:\Projects\AirPollution
+[0m19:27:46.826351 [info ] [MainThread]: Using profiles.yml file at D:\Projects\AirPollution\profiles.yml
+[0m19:27:46.827525 [info ] [MainThread]: Using dbt_project.yml file at D:\Projects\AirPollution\dbt_project.yml
+[0m19:27:46.829590 [info ] [MainThread]: adapter type: snowflake
+[0m19:27:46.830552 [info ] [MainThread]: adapter version: 1.7.3
+[0m19:27:47.062079 [info ] [MainThread]: Configuration:
+[0m19:27:47.063713 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:27:47.065870 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m19:27:47.067909 [info ] [MainThread]: Required dependencies:
+[0m19:27:47.072351 [debug] [MainThread]: Executing "git --help"
+[0m19:27:47.149776 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:27:47.152769 [debug] [MainThread]: STDERR: "b''"
+[0m19:27:47.154774 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:27:47.157771 [info ] [MainThread]: Connection:
+[0m19:27:47.159774 [info ] [MainThread]:   account: swtofoi-onb25282
+[0m19:27:47.161771 [info ] [MainThread]:   user: DEERAK
+[0m19:27:47.164771 [info ] [MainThread]:   database: NAIROBI_POLLUTION
+[0m19:27:47.166770 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m19:27:47.168770 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m19:27:47.174777 [info ] [MainThread]:   schema: NAIROBI_AIR_PURITY
+[0m19:27:47.178771 [info ] [MainThread]:   authenticator: None
+[0m19:27:47.180770 [info ] [MainThread]:   oauth_client_id: None
+[0m19:27:47.183770 [info ] [MainThread]:   query_tag: None
+[0m19:27:47.188770 [info ] [MainThread]:   client_session_keep_alive: False
+[0m19:27:47.190769 [info ] [MainThread]:   host: None
+[0m19:27:47.191768 [info ] [MainThread]:   port: None
+[0m19:27:47.194771 [info ] [MainThread]:   proxy_host: None
+[0m19:27:47.196769 [info ] [MainThread]:   proxy_port: None
+[0m19:27:47.198771 [info ] [MainThread]:   protocol: None
+[0m19:27:47.199771 [info ] [MainThread]:   connect_retries: 1
+[0m19:27:47.205810 [info ] [MainThread]:   connect_timeout: None
+[0m19:27:47.207770 [info ] [MainThread]:   retry_on_database_errors: False
+[0m19:27:47.209769 [info ] [MainThread]:   retry_all: False
+[0m19:27:47.212771 [info ] [MainThread]:   insecure_mode: False
+[0m19:27:47.215768 [info ] [MainThread]:   reuse_connections: None
+[0m19:27:47.219773 [info ] [MainThread]: Registered adapter: snowflake=1.7.3
+[0m19:27:47.223769 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m19:27:47.226771 [debug] [MainThread]: Using snowflake connection "debug"
+[0m19:27:47.228770 [debug] [MainThread]: On debug: select 1 as id
+[0m19:27:47.230773 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:27:50.463709 [debug] [MainThread]: SQL status: SUCCESS 1 in 3.0 seconds
+[0m19:27:50.464692 [debug] [MainThread]: On debug: Close
+[0m19:27:51.377314 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m19:27:51.379343 [info ] [MainThread]: [32mAll checks passed![0m
+[0m19:27:51.383314 [debug] [MainThread]: Command `dbt debug` succeeded at 19:27:51.383314 after 5.06 seconds
+[0m19:27:51.385311 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:27:51.386316 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226FDFC45B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022680FFB010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002268126DEA0>]}
+[0m19:27:51.388312 [debug] [MainThread]: Flushing usage events
+[0m22:38:30.974655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1214B9B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1239DC370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1239DDF60>]}
+
+
+============================== 22:38:30.988195 | fa814677-d51a-4925-97d7-faa54ec29936 ==============================
+[0m22:38:30.988195 [info ] [MainThread]: Running with dbt=1.7.11
+[0m22:38:30.990153 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\Projects\\AirPollution', 'debug': 'False', 'version_check': 'True', 'log_path': 'D:\\Projects\\AirPollution\\logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:38:30.991163 [info ] [MainThread]: dbt version: 1.7.11
+[0m22:38:30.993154 [info ] [MainThread]: python version: 3.10.11
+[0m22:38:30.994915 [info ] [MainThread]: python path: D:\Projects\AirPollution\airPollution\Scripts\python.exe
+[0m22:38:30.996912 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m22:38:33.055041 [info ] [MainThread]: Using profiles dir at D:\Projects\AirPollution
+[0m22:38:33.056478 [info ] [MainThread]: Using profiles.yml file at D:\Projects\AirPollution\profiles.yml
+[0m22:38:33.057522 [info ] [MainThread]: Using dbt_project.yml file at D:\Projects\AirPollution\dbt_project.yml
+[0m22:38:33.065107 [info ] [MainThread]: adapter type: snowflake
+[0m22:38:33.068074 [info ] [MainThread]: adapter version: 1.7.3
+[0m22:38:33.213110 [info ] [MainThread]: Configuration:
+[0m22:38:33.214109 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:38:33.216073 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m22:38:33.217073 [info ] [MainThread]: Required dependencies:
+[0m22:38:33.218076 [debug] [MainThread]: Executing "git --help"
+[0m22:38:33.290074 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:38:33.291078 [debug] [MainThread]: STDERR: "b''"
+[0m22:38:33.292079 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:38:33.295194 [info ] [MainThread]: Connection:
+[0m22:38:33.297077 [info ] [MainThread]:   account: swtofoi-onb25282
+[0m22:38:33.301079 [info ] [MainThread]:   user: DEERAK
+[0m22:38:33.303076 [info ] [MainThread]:   database: NAIROBI_POLLUTION
+[0m22:38:33.305076 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m22:38:33.307081 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m22:38:33.308076 [info ] [MainThread]:   schema: PUBLIC
+[0m22:38:33.310081 [info ] [MainThread]:   authenticator: None
+[0m22:38:33.312075 [info ] [MainThread]:   oauth_client_id: None
+[0m22:38:33.314081 [info ] [MainThread]:   query_tag: None
+[0m22:38:33.316076 [info ] [MainThread]:   client_session_keep_alive: False
+[0m22:38:33.318074 [info ] [MainThread]:   host: None
+[0m22:38:33.319074 [info ] [MainThread]:   port: None
+[0m22:38:33.322081 [info ] [MainThread]:   proxy_host: None
+[0m22:38:33.328077 [info ] [MainThread]:   proxy_port: None
+[0m22:38:33.330078 [info ] [MainThread]:   protocol: None
+[0m22:38:33.333080 [info ] [MainThread]:   connect_retries: 1
+[0m22:38:33.335075 [info ] [MainThread]:   connect_timeout: None
+[0m22:38:33.337074 [info ] [MainThread]:   retry_on_database_errors: False
+[0m22:38:33.341086 [info ] [MainThread]:   retry_all: False
+[0m22:38:33.345075 [info ] [MainThread]:   insecure_mode: False
+[0m22:38:33.347075 [info ] [MainThread]:   reuse_connections: None
+[0m22:38:33.349075 [info ] [MainThread]: Registered adapter: snowflake=1.7.3
+[0m22:38:33.351072 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m22:38:33.354076 [debug] [MainThread]: Using snowflake connection "debug"
+[0m22:38:33.356084 [debug] [MainThread]: On debug: select 1 as id
+[0m22:38:33.358077 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:38:36.249943 [debug] [MainThread]: SQL status: SUCCESS 1 in 3.0 seconds
+[0m22:38:36.251003 [debug] [MainThread]: On debug: Close
+[0m22:38:37.028849 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m22:38:37.029812 [info ] [MainThread]: [32mAll checks passed![0m
+[0m22:38:37.031811 [debug] [MainThread]: Command `dbt debug` succeeded at 22:38:37.031811 after 6.16 seconds
+[0m22:38:37.032844 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:38:37.033811 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1214B9B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1239DDED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B12399EF20>]}
+[0m22:38:37.033811 [debug] [MainThread]: Flushing usage events
+[0m23:15:00.786446 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DA88C4610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DAAFDB580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DAAFD9660>]}
+
+
+============================== 23:15:00.799193 | e8495a95-6da1-4cae-aeff-c8acbe20aa4a ==============================
+[0m23:15:00.799193 [info ] [MainThread]: Running with dbt=1.7.11
+[0m23:15:00.800661 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\Projects\\AirPollution', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'D:\\Projects\\AirPollution\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m23:15:00.802659 [info ] [MainThread]: dbt version: 1.7.11
+[0m23:15:00.803659 [info ] [MainThread]: python version: 3.10.11
+[0m23:15:00.805659 [info ] [MainThread]: python path: D:\Projects\AirPollution\airPollution\Scripts\python.exe
+[0m23:15:00.807660 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m23:15:02.702908 [info ] [MainThread]: Using profiles dir at D:\Projects\AirPollution
+[0m23:15:02.703909 [info ] [MainThread]: Using profiles.yml file at D:\Projects\AirPollution\profiles.yml
+[0m23:15:02.704906 [info ] [MainThread]: Using dbt_project.yml file at D:\Projects\AirPollution\dbt_project.yml
+[0m23:15:02.712282 [info ] [MainThread]: adapter type: snowflake
+[0m23:15:02.713247 [info ] [MainThread]: adapter version: 1.7.3
+[0m23:15:02.859373 [info ] [MainThread]: Configuration:
+[0m23:15:02.860789 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:15:02.862803 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m23:15:02.863489 [info ] [MainThread]: Required dependencies:
+[0m23:15:02.864663 [debug] [MainThread]: Executing "git --help"
+[0m23:15:02.935857 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:15:02.937855 [debug] [MainThread]: STDERR: "b''"
+[0m23:15:02.939850 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:15:02.941881 [info ] [MainThread]: Connection:
+[0m23:15:02.943852 [info ] [MainThread]:   account: swtofoi-onb25282
+[0m23:15:02.944852 [info ] [MainThread]:   user: DEERAK
+[0m23:15:02.946848 [info ] [MainThread]:   database: NAIROBI_POLLUTION
+[0m23:15:02.948848 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m23:15:02.952892 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m23:15:02.954852 [info ] [MainThread]:   schema: PUBLIC
+[0m23:15:02.955851 [info ] [MainThread]:   authenticator: None
+[0m23:15:02.957852 [info ] [MainThread]:   oauth_client_id: None
+[0m23:15:02.959849 [info ] [MainThread]:   query_tag: None
+[0m23:15:02.961848 [info ] [MainThread]:   client_session_keep_alive: False
+[0m23:15:02.962847 [info ] [MainThread]:   host: None
+[0m23:15:02.964846 [info ] [MainThread]:   port: None
+[0m23:15:02.965849 [info ] [MainThread]:   proxy_host: None
+[0m23:15:02.971488 [info ] [MainThread]:   proxy_port: None
+[0m23:15:02.973181 [info ] [MainThread]:   protocol: None
+[0m23:15:02.975177 [info ] [MainThread]:   connect_retries: 1
+[0m23:15:02.977178 [info ] [MainThread]:   connect_timeout: None
+[0m23:15:02.979178 [info ] [MainThread]:   retry_on_database_errors: False
+[0m23:15:02.981196 [info ] [MainThread]:   retry_all: False
+[0m23:15:02.982202 [info ] [MainThread]:   insecure_mode: False
+[0m23:15:02.988197 [info ] [MainThread]:   reuse_connections: None
+[0m23:15:02.990196 [info ] [MainThread]: Registered adapter: snowflake=1.7.3
+[0m23:15:02.993195 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m23:15:02.996195 [debug] [MainThread]: Using snowflake connection "debug"
+[0m23:15:02.997198 [debug] [MainThread]: On debug: select 1 as id
+[0m23:15:02.998199 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:15:05.720957 [debug] [MainThread]: SQL status: SUCCESS 1 in 3.0 seconds
+[0m23:15:05.722990 [debug] [MainThread]: On debug: Close
+[0m23:15:06.543869 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m23:15:06.546764 [info ] [MainThread]: [32mAll checks passed![0m
+[0m23:15:06.551908 [debug] [MainThread]: Command `dbt debug` succeeded at 23:15:06.551908 after 5.90 seconds
+[0m23:15:06.553760 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m23:15:06.554761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DA88C4610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DABC9D900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023DABC9D8A0>]}
+[0m23:15:06.556765 [debug] [MainThread]: Flushing usage events
+[0m23:29:49.534852 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236E4EE4610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236E76D9630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236E76DA590>]}
+
+
+============================== 23:29:49.539850 | 4349379a-a99e-4ddc-9adf-ff2dd32cb5d5 ==============================
+[0m23:29:49.539850 [info ] [MainThread]: Running with dbt=1.7.11
+[0m23:29:49.540853 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\Projects\\AirPollution', 'debug': 'False', 'version_check': 'True', 'log_path': 'D:\\Projects\\AirPollution\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m23:29:50.160846 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4349379a-a99e-4ddc-9adf-ff2dd32cb5d5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236E76D9A20>]}
+[0m23:29:50.292885 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4349379a-a99e-4ddc-9adf-ff2dd32cb5d5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236E83CABF0>]}
+[0m23:29:50.294845 [info ] [MainThread]: Registered adapter: snowflake=1.7.3
+[0m23:29:50.311929 [debug] [MainThread]: checksum: 1b58ec263fbd34ee8091684d6a2f6c1ad2902b1459e632a74eb63768af36ddb7, vars: {}, profile: , target: , version: 1.7.11
+[0m23:29:51.209991 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:29:51.210992 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:29:51.211991 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.Air.example
+[0m23:29:51.273030 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4349379a-a99e-4ddc-9adf-ff2dd32cb5d5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236E85B25F0>]}
+[0m23:29:51.301214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4349379a-a99e-4ddc-9adf-ff2dd32cb5d5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236E8573010>]}
+[0m23:29:51.303214 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 430 macros, 0 groups, 0 semantic models
+[0m23:29:51.306213 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4349379a-a99e-4ddc-9adf-ff2dd32cb5d5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236E8448B50>]}
+[0m23:29:51.309211 [info ] [MainThread]: 
+[0m23:29:51.310211 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:29:51.311422 [debug] [MainThread]: Command end result
+[0m23:29:51.324068 [debug] [MainThread]: Command `dbt run` succeeded at 23:29:51.323032 after 1.89 seconds
+[0m23:29:51.325035 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236E4EE4610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236E83CABF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000236E84489D0>]}
+[0m23:29:51.326063 [debug] [MainThread]: Flushing usage events
+[0m23:42:46.002932 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015432EC4610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000154353DA050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000154353D8280>]}
+
+
+============================== 23:42:46.006931 | 672c9d76-5473-4319-8b0b-ac41cc349763 ==============================
+[0m23:42:46.006931 [info ] [MainThread]: Running with dbt=1.7.11
+[0m23:42:46.009284 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\Projects\\AirPollution', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'D:\\Projects\\AirPollution\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m23:42:46.524787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '672c9d76-5473-4319-8b0b-ac41cc349763', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000154353D9C60>]}
+[0m23:42:46.698932 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '672c9d76-5473-4319-8b0b-ac41cc349763', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000154360CABF0>]}
+[0m23:42:46.701069 [info ] [MainThread]: Registered adapter: snowflake=1.7.3
+[0m23:42:46.715666 [debug] [MainThread]: checksum: 1b58ec263fbd34ee8091684d6a2f6c1ad2902b1459e632a74eb63768af36ddb7, vars: {}, profile: , target: , version: 1.7.11
+[0m23:42:46.851051 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:42:46.852052 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:42:46.852052 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.Air.example
+[0m23:42:46.927051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '672c9d76-5473-4319-8b0b-ac41cc349763', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000154364AE5F0>]}
+[0m23:42:46.953064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '672c9d76-5473-4319-8b0b-ac41cc349763', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015436471CC0>]}
+[0m23:42:46.955051 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 430 macros, 0 groups, 0 semantic models
+[0m23:42:46.960053 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '672c9d76-5473-4319-8b0b-ac41cc349763', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015436148A90>]}
+[0m23:42:46.964056 [info ] [MainThread]: 
+[0m23:42:46.967051 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:42:46.970051 [debug] [MainThread]: Command end result
+[0m23:42:46.996049 [debug] [MainThread]: Command `dbt run` succeeded at 23:42:46.996049 after 1.10 seconds
+[0m23:42:46.998050 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015432EC4610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000154360CABF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015435CEDA80>]}
+[0m23:42:47.000051 [debug] [MainThread]: Flushing usage events
+[0m23:49:24.471105 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CFF4B93C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C819DB5E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C819D9420>]}
+
+
+============================== 23:49:24.475070 | fc5f9162-b429-4035-b0ab-5e8ca2bc8402 ==============================
+[0m23:49:24.475070 [info ] [MainThread]: Running with dbt=1.7.11
+[0m23:49:24.477071 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'D:\\Projects\\AirPollution', 'debug': 'False', 'warn_error': 'None', 'log_path': 'D:\\Projects\\AirPollution\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:49:25.099383 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fc5f9162-b429-4035-b0ab-5e8ca2bc8402', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C819DAB00>]}
+[0m23:49:25.227347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'fc5f9162-b429-4035-b0ab-5e8ca2bc8402', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C826C8BE0>]}
+[0m23:49:25.228349 [info ] [MainThread]: Registered adapter: snowflake=1.7.3
+[0m23:49:25.244346 [debug] [MainThread]: checksum: 1b58ec263fbd34ee8091684d6a2f6c1ad2902b1459e632a74eb63768af36ddb7, vars: {}, profile: , target: , version: 1.7.11
+[0m23:49:25.344379 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:49:25.344379 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:49:25.345379 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.Air.example
+[0m23:49:25.411347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fc5f9162-b429-4035-b0ab-5e8ca2bc8402', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C82AAE530>]}
+[0m23:49:25.427345 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fc5f9162-b429-4035-b0ab-5e8ca2bc8402', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C82A71C00>]}
+[0m23:49:25.429354 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 430 macros, 0 groups, 0 semantic models
+[0m23:49:25.430347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fc5f9162-b429-4035-b0ab-5e8ca2bc8402', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C82754A90>]}
+[0m23:49:25.432382 [info ] [MainThread]: 
+[0m23:49:25.433799 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:49:25.436061 [debug] [MainThread]: Command end result
+[0m23:49:25.468091 [debug] [MainThread]: Command `dbt run` succeeded at 23:49:25.468091 after 1.11 seconds
+[0m23:49:25.473119 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021CFF4B93C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C827549D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021C827549A0>]}
+[0m23:49:25.475065 [debug] [MainThread]: Flushing usage events
+[0m23:56:27.993627 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2FD3BB340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2FFAD9630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2FFADB550>]}
+
+
+============================== 23:56:27.997628 | fb7f4d16-b100-40a2-aafd-fd74ab59513a ==============================
+[0m23:56:27.997628 [info ] [MainThread]: Running with dbt=1.7.11
+[0m23:56:27.998595 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'D:\\Projects\\AirPollution\\logs', 'version_check': 'True', 'profiles_dir': 'D:\\Projects\\AirPollution', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:56:28.678592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fb7f4d16-b100-40a2-aafd-fd74ab59513a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2FFADA350>]}
+[0m23:56:28.836595 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'fb7f4d16-b100-40a2-aafd-fd74ab59513a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2807CB640>]}
+[0m23:56:28.837594 [info ] [MainThread]: Registered adapter: snowflake=1.7.3
+[0m23:56:28.849596 [debug] [MainThread]: checksum: 1b58ec263fbd34ee8091684d6a2f6c1ad2902b1459e632a74eb63768af36ddb7, vars: {}, profile: , target: , version: 1.7.11
+[0m23:56:28.947628 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:56:28.947628 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:56:28.948629 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.Air.example
+[0m23:56:29.015640 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fb7f4d16-b100-40a2-aafd-fd74ab59513a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2809AE5C0>]}
+[0m23:56:29.031610 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fb7f4d16-b100-40a2-aafd-fd74ab59513a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D280971C90>]}
+[0m23:56:29.033610 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 430 macros, 0 groups, 0 semantic models
+[0m23:56:29.036608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fb7f4d16-b100-40a2-aafd-fd74ab59513a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D280848A60>]}
+[0m23:56:29.040606 [info ] [MainThread]: 
+[0m23:56:29.042608 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m23:56:29.045610 [debug] [MainThread]: Command end result
+[0m23:56:29.069608 [debug] [MainThread]: Command `dbt run` succeeded at 23:56:29.069608 after 1.17 seconds
+[0m23:56:29.071608 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2FD3BB340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2806E1DE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D2803EE740>]}
+[0m23:56:29.073607 [debug] [MainThread]: Flushing usage events

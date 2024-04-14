@@ -1,0 +1,13 @@
+Air:
+  outputs:
+    dev:
+      account: swtofoi-onb25282
+      database: NAIROBI_POLLUTION
+      password: #########
+      role: ACCOUNTADMIN
+      schema: PUBLIC
+      threads: 1
+      type: snowflake
+      user: DEERAK
+      warehouse: COMPUTE_WH
+  target: dev
