@@ -11,7 +11,7 @@
 ![AWS](https://img.shields.io/badge/Amazon%20AWS-232F3E?logo=amazonaws&logoColor=fff&style=for-the-badge)
 
 
-### <b><span style='color:black'> Overview</span></b> </div>
+### <b><ins><span style='color:black'> Overview</span></ins></b> </div>
 
 **Data pipelines** offer a wider range of benefits especially for organization that is data-driven. It typically involves data ingestion using various tools from cloud storage platforms(**Airbyte & Datadoo**), loading into a given database(**Snowflake, Redshift & Postgress**) and later transformation(**DataBuildTool**) depending on the company need basis and tasks at hand. The benefits include:
 
@@ -21,11 +21,11 @@
 
 There are two data pipeline architectures namely the **ETL(Extract-Transform-Load)** and the modern **ELT(Extract-Load-Transform)** which offers scalability and is more cost effective because it eliminates the need for a separate `Transformation` process and offers storage optimization given that transformation will be on a need basis. 
 
-### <b><span style='color:black'> Task 1(Data Pipeline)</span></b> </div>
+### <b><ins><span style='color:black'> Task 1(Data Pipeline)</span></ins></b> </div>
 
 Provided with data about several factors(80 factors) that influence and affect the air quality in terms of the particulate matter, data pipelines come in handy because they offer integrity and scalability. 
 
-1. Data publication to a S3 bucket 
+1. Data publication to an `AWS` S3 bucket 
 2. Data ingestion by `Snowflake` for loading into a database.
 3. Data transformation by `DBT` to make it available for further analysis and machine learning.
 
