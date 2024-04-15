@@ -43,7 +43,10 @@ The transformed data can be found [here](data) for further analysis and machine 
 
 To get accurate predictions, it is essential to use models specifilly built for time series prediction such as [tsfresh](https://pypi.org/project/tsfresh/) and [sktime](https://pypi.org/project/sktime/). To get even better results, boosting algorithms can be incorporated into these models because they are able to learn the complex relationships in data and also use the ensemble approach. 
 
+Kampala Particulate matter trend:
  ![Kampala Particulate matter trend](<kampala Chart.png>)
+
+Nairobi Particulate matter trend:
  ![Nairobi Particulate matter trend](<Nairobi chart.png>)
 
 
