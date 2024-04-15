@@ -37,7 +37,7 @@ To connect `snowflake` and `DBT`, installing [dbt-snowflake](https://pypi.org/pr
 
 To get started with [dbt](https://docs.getdbt.com/docs/introduction), run the commands **dbt init** to initialize the project, **dbt debug** to test the database connection and **dbt-run** to execute the compiled SQL files. 
 
-### <b><span style='color:blue'> Task 2(Time Series Modelling)</span></b> </div>
+### <b><ins><span style='color:blue'> Task 2(Time Series Modelling)</span></ins></b> 
 
 The transformed data can be found [here](data) for further analysis and machine learning to determine the future particulate matter in the air. This prediction stage is necesary as it helps the medicare industries and respective governments at large to anticipate for any future illness among its citizens. This helps in proper planning of the required ammenities to cater for any eventuality. 
 
